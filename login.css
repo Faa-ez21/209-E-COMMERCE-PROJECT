@@ -1,0 +1,78 @@
+/* Login Page Styles */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('https://i.ibb.co/Qvqn3S4/IMG-20250107-WA0011.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.login-form {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: green;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  background-color: green;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: green;
+}
+
+.login-form p {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #ddd;
+}
+
+.login-form a {
+  color: green;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-form a:hover {
+  text-decoration: underline;
+}
